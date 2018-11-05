@@ -8,6 +8,6 @@ class ViewController: UIViewController {
     @IBAction func didTap(_ sender: Any) {
         print("Tapped")
         count += 1
-        label.text = "\(count)" // String(count)
+        label.text = "\(count)" // String (count)
     }
 }

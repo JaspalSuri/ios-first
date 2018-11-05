@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GRE-mQ-RjO">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xdQ-C9-FlQ">
                                 <rect key="frame" x="177.5" y="314" width="20" height="39"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <nil key="textColor"/>
@@ -27,22 +27,22 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="GRE-mQ-RjO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E8F-Ci-y8F"/>
-                            <constraint firstItem="GRE-mQ-RjO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="QQa-nV-KmQ"/>
+                            <constraint firstItem="xdQ-C9-FlQ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="UDL-Kn-EdP"/>
+                            <constraint firstItem="xdQ-C9-FlQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Yha-rL-IwP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <connections>
-                            <outletCollection property="gestureRecognizers" destination="CRZ-BG-ust" appends="YES" id="fs5-0T-Cec"/>
+                            <outletCollection property="gestureRecognizers" destination="gdx-8P-kr0" appends="YES" id="jba-Fw-x1U"/>
                         </connections>
                     </view>
                     <connections>
-                        <outlet property="label" destination="GRE-mQ-RjO" id="yCs-Ld-QDb"/>
+                        <outlet property="label" destination="xdQ-C9-FlQ" id="knJ-KB-LDI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="CRZ-BG-ust">
+                <tapGestureRecognizer id="gdx-8P-kr0">
                     <connections>
-                        <action selector="didTap:" destination="BYZ-38-t0r" id="8Bx-QP-Y96"/>
+                        <action selector="didTap:" destination="BYZ-38-t0r" id="gBD-XK-h8C"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
